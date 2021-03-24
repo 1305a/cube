@@ -13,51 +13,45 @@
     justify-content: center;
 }
 
-.cube1 {
+.cubeall {
     width: 150px;
     height: 150px;
     border: 1px solid black;
     margin-left: 20px;
     margin-right: 20px;
-    background-color: blueviolet;
+    font-size: 80px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cube1 {
+    background-color: rgb(180, 124, 233);
+    order: 1;
 }
 
 .cube2 {
-    width: 150px;
-    height: 150px;
-    border: 1px solid black;
-    margin-left: 20px;
-    margin-right: 20px;
+    background-color: rgb(92, 92, 226);
+    order: 2;
 }
 
 .cube3 {
-    width: 150px;
-    height: 150px;
-    border: 1px solid black;
-    margin-left: 20px;
-    margin-right: 20px;
+    background-color: rgb(100, 245, 250);
+    order: 3;
 }
 
 .cube4 {
-    width: 150px;
-    height: 150px;
-    border: 1px solid black;
-    margin-left: 20px;
-    margin-right: 20px;
+    background-color: rgb(144, 235, 122);
+    order: 4;
 }
 
 .cube5 {
-    width: 150px;
-    height: 150px;
-    border: 1px solid black;
-    margin-left: 20px;
-    margin-right: 20px;
+    background-color: rgb(243, 213, 44);
+    order: 5;
 }
 
 .cube6 {
-    width: 150px;
-    height: 150px;
-    border: 1px solid black;
-    margin-left: 20px;
-    margin-right: 20px;
+    background-color: rgb(226, 43, 165);
+    order: 6;
 }
