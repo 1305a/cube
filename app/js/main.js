@@ -90,7 +90,7 @@ cube6.addEventListener ('contextmenu', (event) => {
 
 rnd.addEventListener ('click', (event) => {
     event.preventDefault()
-    const randomArray=[1, 2, 3, 4, 5, 6]
+    const randomArray=[0, 1, 2, 3, 4, 5]
     randomArray.sort(function(){ 
     return 0.5 - Math.random()
     })
