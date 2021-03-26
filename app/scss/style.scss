@@ -1,5 +1,6 @@
 .bodywrapper {
     display: flex;
+    flex-direction: column;
 }
 
 
@@ -9,7 +10,7 @@
     margin: auto;
     display: flex;
     // border: 1px solid red;
-    margin-top: 400px;
+    margin-top: 350px;
     justify-content: center;
 }
 
@@ -54,4 +55,16 @@
 .cube6 {
     background-color: rgb(226, 43, 165);
     // order: 6;
+}
+
+.prompt-text {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.button-random {
+    width: 120px;
+    height: 35px;
+    margin: auto;
 }
